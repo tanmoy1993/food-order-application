@@ -1,0 +1,34 @@
+version: '3'
+services:
+  buyer-service:
+    build: .
+    #restart: unless-stopped
+    env_file:
+      - ./all_configs.env
+    ports:
+      - "8092:8092"
+  my-postgres:
+    image: postgres:12-alpine
+    ports:
+    - "5432:5432"
+    env_file:
+      - ./all_configs.env
+    volumes:
+      - ./db_init:/docker-entrypoint-initdb.d
+      - ./pg_datadir:/var/lib/postgresql/data
+  zookeeper:
+    image: wurstmeister/zookeeper
+    ports:
+      - "2181:2181"
+  my-kafka1:
+    image: wurstmeister/kafka
+    links: 
+      - zookeeper
+    deploy:
+      replicas: 1
+    env_file:
+      - ./all_configs.env
+    ports:
+      - "9092:9092"
+    volumes:
+      - /kafka_pers_dir:/var/run/docker.sock

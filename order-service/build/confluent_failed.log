@@ -1,0 +1,395 @@
+172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886147.576|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886147.577|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 721)
+order-service_1    | %7|1591886147.683|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 721, rtt 105.67ms)
+order-service_1    | %7|1591886147.683|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886147.684|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886147.685|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886147.688|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 722)
+order-service_1    | %7|1591886147.786|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 722, rtt 97.73ms)
+order-service_1    | %7|1591886147.787|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886147.788|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886147.788|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886147.790|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 723)
+order-service_1    | %7|1591886147.894|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 723, rtt 104.26ms)
+order-service_1    | %7|1591886147.895|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886147.895|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886147.896|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886147.898|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 724)
+order-service_1    | in custom deserializer
+order-service_1    | data len: 69
+order-service_1    | received data: {"orderId": "5edf7888485fe20001716099", "status": true, "reason": ""}
+order-service_1    | %7|1591886147.999|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 724, rtt 101.16ms)
+order-service_1    | %7|1591886148.001|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886148.002|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886148.004|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886148.005|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 725)
+order-service_1    | %7|1591886148.106|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 725, rtt 101.30ms)
+order-service_1    | %7|1591886148.107|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886148.108|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886148.108|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886148.109|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 726)
+order-service_1    | %7|1591886148.213|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 726, rtt 103.97ms)
+order-service_1    | %7|1591886148.214|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886148.216|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886148.217|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886148.218|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 727)
+order-service_1    | %7|1591886148.320|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 727, rtt 101.43ms)
+order-service_1    | %7|1591886148.320|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886148.322|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886148.323|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886148.324|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 728)
+order-service_1    | %7|1591886148.425|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 728, rtt 101.03ms)
+order-service_1    | %7|1591886148.426|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886148.426|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886148.427|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886148.428|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 729)
+order-service_1    | %7|1591886148.530|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 729, rtt 101.58ms)
+order-service_1    | %7|1591886148.531|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886148.532|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886148.533|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886148.534|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 730)
+order-service_1    | %7|1591886148.635|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 730, rtt 100.87ms)
+order-service_1    | %7|1591886148.636|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886148.637|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886148.638|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886148.639|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 731)
+order-service_1    | %7|1591886148.740|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 731, rtt 101.68ms)
+order-service_1    | %7|1591886148.741|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886148.742|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886148.743|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886148.749|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 732)
+order-service_1    | %7|1591886148.845|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 732, rtt 96.08ms)
+order-service_1    | %7|1591886148.846|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886148.847|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886148.847|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886148.849|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 733)
+order-service_1    | %7|1591886148.950|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 733, rtt 101.18ms)
+order-service_1    | %7|1591886148.952|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886148.952|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886148.953|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886148.954|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 734)
+order-service_1    | %7|1591886149.055|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 734, rtt 101.13ms)
+order-service_1    | %7|1591886149.056|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886149.057|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886149.058|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886149.059|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 735)
+order-service_1    | %7|1591886149.161|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 735, rtt 102.07ms)
+order-service_1    | %7|1591886149.162|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886149.163|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886149.163|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886149.165|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 736)
+order-service_1    | %7|1591886149.224|HEARTBEAT|rdkafka#consumer-6| [thrd:main]: GroupCoordinator/1: Heartbeat for group "ord_srvc_grp" generation id 1
+order-service_1    | %7|1591886149.225|SEND|rdkafka#consumer-6| [thrd:GroupCoordinator]: GroupCoordinator/1: Sent HeartbeatRequest (v3, 87 bytes @ 0, CorrId 36)
+order-service_1    | %7|1591886149.240|RECV|rdkafka#consumer-6| [thrd:GroupCoordinator]: GroupCoordinator/1: Received HeartbeatResponse (v3, 6 bytes, CorrId 36, rtt 14.90ms)
+order-service_1    | %7|1591886149.266|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 736, rtt 101.44ms)
+order-service_1    | %7|1591886149.267|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886149.267|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886149.267|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886149.268|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 737)
+order-service_1    | %7|1591886149.370|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 737, rtt 101.80ms)
+order-service_1    | %7|1591886149.371|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886149.371|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886149.373|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886149.374|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 738)
+order-service_1    | %7|1591886149.478|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 738, rtt 103.97ms)
+order-service_1    | %7|1591886149.478|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886149.481|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886149.482|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886149.484|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 739)
+order-service_1    | %7|1591886149.586|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 739, rtt 101.94ms)
+order-service_1    | %7|1591886149.586|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886149.587|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886149.588|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886149.589|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 740)
+order-service_1    | %7|1591886149.691|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 740, rtt 101.26ms)
+order-service_1    | %7|1591886149.691|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886149.692|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886149.693|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886149.694|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 741)
+order-service_1    | %7|1591886149.796|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 741, rtt 101.97ms)
+order-service_1    | %7|1591886149.797|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886149.797|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886149.799|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886149.800|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 742)
+order-service_1    | %7|1591886149.905|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 742, rtt 105.43ms)
+order-service_1    | %7|1591886149.906|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886149.906|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886149.908|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886149.909|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 743)
+order-service_1    | %7|1591886150.022|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 743, rtt 113.02ms)
+order-service_1    | %7|1591886150.023|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886150.024|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886150.024|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886150.028|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 744)
+order-service_1    | %7|1591886150.130|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 744, rtt 101.32ms)
+order-service_1    | %7|1591886150.131|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886150.132|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886150.133|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886150.137|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 745)
+order-service_1    | %7|1591886150.237|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 745, rtt 100.29ms)
+order-service_1    | %7|1591886150.238|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886150.238|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886150.239|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886150.240|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 746)
+order-service_1    | %7|1591886150.343|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 746, rtt 102.62ms)
+order-service_1    | %7|1591886150.343|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886150.344|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886150.345|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886150.347|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 747)
+order-service_1    | %7|1591886150.448|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 747, rtt 101.52ms)
+order-service_1    | %7|1591886150.449|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886150.449|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886150.450|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886150.452|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 748)
+order-service_1    | %7|1591886150.571|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 748, rtt 118.99ms)
+order-service_1    | %7|1591886150.571|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886150.572|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886150.573|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886150.574|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 749)
+order-service_1    | %7|1591886150.679|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 749, rtt 105.19ms)
+order-service_1    | %7|1591886150.680|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886150.681|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886150.681|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886150.682|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 750)
+order-service_1    | %7|1591886150.790|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 750, rtt 107.65ms)
+order-service_1    | %7|1591886150.791|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886150.791|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886150.792|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886150.793|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 751)
+order-service_1    | %7|1591886150.906|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 751, rtt 113.38ms)
+order-service_1    | %7|1591886150.907|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886150.907|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886150.908|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886150.909|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 752)
+order-service_1    | %7|1591886151.014|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 752, rtt 105.11ms)
+order-service_1    | %7|1591886151.015|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886151.016|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886151.016|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886151.018|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 753)
+order-service_1    | %7|1591886151.122|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 753, rtt 104.61ms)
+order-service_1    | %7|1591886151.123|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886151.124|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886151.124|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886151.125|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 754)
+order-service_1    | %7|1591886151.229|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 754, rtt 103.72ms)
+order-service_1    | %7|1591886151.231|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886151.232|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886151.232|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886151.241|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 755)
+order-service_1    | %7|1591886151.336|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 755, rtt 95.59ms)
+order-service_1    | %7|1591886151.337|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886151.338|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886151.338|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886151.340|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 756)
+order-service_1    | %7|1591886151.444|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 756, rtt 104.09ms)
+order-service_1    | %7|1591886151.444|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886151.445|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886151.446|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886151.447|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 757)
+order-service_1    | %7|1591886151.551|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 757, rtt 104.04ms)
+order-service_1    | %7|1591886151.552|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886151.552|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886151.554|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886151.555|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 758)
+order-service_1    | %7|1591886151.670|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 758, rtt 115.09ms)
+order-service_1    | %7|1591886151.670|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886151.670|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886151.670|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886151.670|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 759)
+order-service_1    | %7|1591886151.807|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 759, rtt 137.39ms)
+order-service_1    | %7|1591886151.807|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886151.807|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886151.807|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886151.807|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 760)
+order-service_1    | %7|1591886151.924|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 760, rtt 116.42ms)
+order-service_1    | %7|1591886151.924|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886151.925|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886151.926|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886151.929|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 761)
+order-service_1    | %7|1591886152.033|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 761, rtt 103.77ms)
+order-service_1    | %7|1591886152.033|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886152.033|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886152.033|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886152.033|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 762)
+order-service_1    | %7|1591886152.138|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 762, rtt 105.10ms)
+order-service_1    | %7|1591886152.139|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886152.139|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886152.139|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886152.139|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 763)
+order-service_1    | %7|1591886152.225|HEARTBEAT|rdkafka#consumer-6| [thrd:main]: GroupCoordinator/1: Heartbeat for group "ord_srvc_grp" generation id 1
+order-service_1    | %7|1591886152.227|SEND|rdkafka#consumer-6| [thrd:GroupCoordinator]: GroupCoordinator/1: Sent HeartbeatRequest (v3, 87 bytes @ 0, CorrId 37)
+order-service_1    | %7|1591886152.227|RECV|rdkafka#consumer-6| [thrd:GroupCoordinator]: GroupCoordinator/1: Received HeartbeatResponse (v3, 6 bytes, CorrId 37, rtt 0.17ms)
+order-service_1    | %7|1591886152.241|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 763, rtt 102.13ms)
+order-service_1    | %7|1591886152.242|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886152.242|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886152.242|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886152.243|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 764)
+order-service_1    | %7|1591886152.343|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 764, rtt 100.86ms)
+order-service_1    | %7|1591886152.344|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886152.345|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886152.345|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886152.352|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 765)
+order-service_1    | %7|1591886152.452|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 765, rtt 100.67ms)
+order-service_1    | %7|1591886152.454|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 1, LSO 1, Ver 2/2
+order-service_1    | %7|1591886152.455|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 1 (v2)
+order-service_1    | %7|1591886152.456|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886152.457|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 766)
+order-service_1    | received data obj: {OrderId: 5edf7888485fe20001716099, Status: True, Message: , }
+order-service_1    | %7|1591886152.529|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 230 bytes, CorrId 766, rtt 72.22ms)
+order-service_1    | %7|1591886152.530|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 158, error "Success", MaxOffset 2, LSO 2, Ver 2/2
+order-service_1    | %7|1591886152.530|CONSUME|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Enqueue 1 message(s) (69 bytes, 1 ops) on fo_pay_sta [0] fetch queue (qlen 1, v2, last_offset 1, 0 ctrl msgs, uncompressed)
+order-service_1    | %7|1591886152.530|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 2 (v2)
+order-service_1    | %7|1591886152.530|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886152.530|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 767)
+order-service_1    | %7|1591886152.633|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 767, rtt 102.91ms)
+order-service_1    | %7|1591886152.634|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 2, LSO 2, Ver 2/2
+order-service_1    | %7|1591886152.635|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 2 (v2)
+order-service_1    | %7|1591886152.635|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886152.637|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 768)
+order-service_1    | %7|1591886152.738|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 768, rtt 101.02ms)
+order-service_1    | %7|1591886152.738|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 2, LSO 2, Ver 2/2
+order-service_1    | %7|1591886152.739|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 2 (v2)
+order-service_1    | %7|1591886152.740|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886152.741|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 769)
+order-service_1    | %7|1591886152.844|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 769, rtt 103.38ms)
+order-service_1    | %7|1591886152.845|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 2, LSO 2, Ver 2/2
+order-service_1    | %7|1591886152.845|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 2 (v2)
+order-service_1    | %7|1591886152.846|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886152.848|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 770)
+order-service_1    | %7|1591886152.947|DESTROY|rdkafka#consumer-6| [thrd:app]: Terminating instance (destroy flags NoConsumerClose (0x8))
+order-service_1    | %7|1591886152.948|TERMINATE|rdkafka#consumer-6| [thrd:app]: Terminating consumer group handler
+order-service_1    | %7|1591886152.949|CLOSE|rdkafka#consumer-6| [thrd:app]: Closing consumer
+order-service_1    | %7|1591886152.948|RECV|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received FetchResponse (v11, 72 bytes, CorrId 770, rtt 100.49ms)
+order-service_1    | %7|1591886152.951|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] MessageSet size 0, error "Success", MaxOffset 2, LSO 2, Ver 2/2
+order-service_1    | %7|1591886152.951|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch topic fo_pay_sta [0] at offset 2 (v2)
+order-service_1    | %7|1591886152.952|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Fetch 1/1/1 toppar(s)
+order-service_1    | %7|1591886152.953|SEND|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Sent FetchRequest (v11, 100 bytes @ 0, CorrId 771)
+order-service_1    | %7|1591886152.961|CLOSE|rdkafka#consumer-6| [thrd:app]: Disabling and purging temporary queue to quench close events
+order-service_1    | %7|1591886152.964|CLOSE|rdkafka#consumer-6| [thrd:app]: Consumer closed
+order-service_1    | %7|1591886152.964|TERMINATE|rdkafka#consumer-6| [thrd:app]: Interrupting timers
+order-service_1    | %7|1591886152.965|TERMINATE|rdkafka#consumer-6| [thrd:app]: Sending TERMINATE to internal main thread
+order-service_1    | %7|1591886152.965|TERMINATE|rdkafka#consumer-6| [thrd:app]: Joining internal main thread
+order-service_1    | %7|1591886152.964|CGRPOP|rdkafka#consumer-6| [thrd:main]: Group "ord_srvc_grp" received op TERMINATE (v0) in state up (join state started, v4 vs 0)
+order-service_1    | %7|1591886152.967|CGRPTERM|rdkafka#consumer-6| [thrd:main]: Terminating group "ord_srvc_grp" in state up with 1 partition(s)
+order-service_1    | %7|1591886152.967|UNSUBSCRIBE|rdkafka#consumer-6| [thrd:main]: Group "ord_srvc_grp": unsubscribe from current subscription of 1 topics (leave group=no, join state started, v4)
+order-service_1    | %7|1591886152.979|SUBSCRIPTION|rdkafka#consumer-6| [thrd:main]: Group "ord_srvc_grp": clearing subscribed topics list (1)
+order-service_1    | %7|1591886152.980|SUBSCRIPTION|rdkafka#consumer-6| [thrd:main]: Group "ord_srvc_grp": effective subscription list changed from 1 to 0 topic(s):
+order-service_1    | %7|1591886152.981|GRPLEADER|rdkafka#consumer-6| [thrd:main]: Group "ord_srvc_grp": resetting group leader info: unsubscribe
+order-service_1    | %7|1591886152.982|REBALANCE|rdkafka#consumer-6| [thrd:main]: Group "ord_srvc_grp" is rebalancing in state up (join-state started) with assignment: unsubscribe
+order-service_1    | %7|1591886152.993|PAUSE|rdkafka#consumer-6| [thrd:main]: Library pausing 1 partition(s)
+order-service_1    | %7|1591886152.994|BARRIER|rdkafka#consumer-6| [thrd:main]: fo_pay_sta [0]: rd_kafka_toppar_op_pause_resume:2393: new version barrier v3
+order-service_1    | %7|1591886152.996|PAUSE|rdkafka#consumer-6| [thrd:main]: Pause fo_pay_sta [0] (v3)
+order-service_1    | %7|1591886152.996|CGRPJOINSTATE|rdkafka#consumer-6| [thrd:main]: Group "ord_srvc_grp" changed join state started -> wait-unassign (v4, state up)
+order-service_1    | %7|1591886152.997|BARRIER|rdkafka#consumer-6| [thrd:main]: Group "ord_srvc_grp": rd_kafka_cgrp_unassign:2476: new version barrier v5
+order-service_1    | %7|1591886152.998|UNASSIGN|rdkafka#consumer-6| [thrd:main]: Group "ord_srvc_grp": unassigning 1 partition(s) (v5)
+order-service_1    | %7|1591886152.999|BARRIER|rdkafka#consumer-6| [thrd:main]: fo_pay_sta [0]: rd_kafka_toppar_op_fetch_stop:2334: new version barrier v4
+order-service_1    | %7|1591886153.001|CONSUMER|rdkafka#consumer-6| [thrd:main]: Stop consuming fo_pay_sta [0] (v4)
+order-service_1    | %7|1591886153.002|DESP|rdkafka#consumer-6| [thrd:main]: Removing (un)desired topic fo_pay_sta [0]
+order-service_1    | %7|1591886153.002|RESUME|rdkafka#consumer-6| [thrd:main]: Library resuming 1 partition(s)
+order-service_1    | %7|1591886153.003|BARRIER|rdkafka#consumer-6| [thrd:main]: fo_pay_sta [0]: rd_kafka_toppar_op_pause_resume:2393: new version barrier v5
+order-service_1    | %7|1591886153.004|RESUME|rdkafka#consumer-6| [thrd:main]: Resume fo_pay_sta [0] (v5)
+order-service_1    | %7|1591886153.004|UNASSIGN|rdkafka#consumer-6| [thrd:main]: Unassign not done yet (1 wait_unassign, 1 assigned, 0 wait commit, join state wait-unassign): unassign
+order-service_1    | %7|1591886153.005|UNASSIGN|rdkafka#consumer-6| [thrd:main]: Unassign not done yet (1 wait_unassign, 1 assigned, 0 wait commit, join state wait-unassign): unassign (no previous assignment)
+order-service_1    | %7|1591886153.005|CGRPTERM|rdkafka#consumer-6| [thrd:main]: Group "ord_srvc_grp": waiting for 1 toppar(s), 1 unassignment(s), 0 commit(s) (state up, join-state wait-unassign) before terminating
+order-service_1    | %7|1591886153.005|CGRPTERM|rdkafka#consumer-6| [thrd:main]: Group "ord_srvc_grp": waiting for 1 toppar(s), 1 unassignment(s), 0 commit(s) (state up, join-state wait-unassign) before terminating
+order-service_1    | %7|1591886153.012|OP|rdkafka#consumer-6| [thrd:main]: fo_pay_sta [0] received op PAUSE (v3) in fetch-state active (opv2)
+order-service_1    | %7|1591886153.014|PAUSE|rdkafka#consumer-6| [thrd:main]: Pause fo_pay_sta [0]: at offset 1 (state active, v3)
+order-service_1    | %7|1591886153.015|OP|rdkafka#consumer-6| [thrd:main]: fo_pay_sta [0] received op FETCH_STOP (v4) in fetch-state active (opv3)
+order-service_1    | %7|1591886153.017|FETCH|rdkafka#consumer-6| [thrd:main]: Stopping fetch for fo_pay_sta [0] in state active (v4)
+order-service_1    | %7|1591886153.017|PARTSTATE|rdkafka#consumer-6| [thrd:main]: Partition fo_pay_sta [0] changed fetch state active -> stopping
+order-service_1    | %7|1591886153.018|STORETERM|rdkafka#consumer-6| [thrd:main]: fo_pay_sta [0]: offset store terminating
+order-service_1    | %7|1591886153.019|PARTSTATE|rdkafka#consumer-6| [thrd:main]: Partition fo_pay_sta [0] changed fetch state stopping -> stopped
+order-service_1    | %7|1591886153.019|OP|rdkafka#consumer-6| [thrd:main]: fo_pay_sta [0] received op PAUSE (v5) in fetch-state stopped (opv4)
+order-service_1    | %7|1591886153.020|RESUME|rdkafka#consumer-6| [thrd:main]: Not resuming stopped fo_pay_sta [0]: at offset 1 (state stopped, v5)
+order-service_1    | %7|1591886153.021|CGRPTERM|rdkafka#consumer-6| [thrd:main]: Group "ord_srvc_grp": waiting for 1 toppar(s), 1 unassignment(s), 0 commit(s) (state up, join-state wait-unassign) before terminating
+order-service_1    | %7|1591886153.022|CGRPOP|rdkafka#consumer-6| [thrd:main]: Group "ord_srvc_grp" received op PARTITION_LEAVE in state up (join state wait-unassign, v5) for fo_pay_sta [0]
+order-service_1    | %7|1591886153.022|PARTDEL|rdkafka#consumer-6| [thrd:main]: Group "ord_srvc_grp": delete fo_pay_sta [0]
+order-service_1    | %7|1591886153.023|CGRPTERM|rdkafka#consumer-6| [thrd:main]: Group "ord_srvc_grp": waiting for 0 toppar(s), 1 unassignment(s), 0 commit(s) (state up, join-state wait-unassign) before terminating
+order-service_1    | %7|1591886153.023|CGRPOP|rdkafka#consumer-6| [thrd:main]: Group "ord_srvc_grp" received op REPLY:FETCH_STOP in state up (join state wait-unassign, v5) for fo_pay_sta [0]
+order-service_1    | %7|1591886153.023|UNASSIGN|rdkafka#consumer-6| [thrd:main]: Group "ord_srvc_grp": unassign done in state up (join state wait-unassign): without new assignment: FETCH_STOP done
+order-service_1    | %7|1591886153.023|CGRPJOINSTATE|rdkafka#consumer-6| [thrd:main]: Group "ord_srvc_grp" changed join state wait-unassign -> init (v5, state up)
+order-service_1    | %7|1591886153.023|CGRPSTATE|rdkafka#consumer-6| [thrd:main]: Group "ord_srvc_grp" changed state up -> term (v5, join-state init)
+order-service_1    | %7|1591886153.024|BROADCAST|rdkafka#consumer-6| [thrd:main]: Broadcasting state change
+order-service_1    | %7|1591886153.024|COORDCLEAR|rdkafka#consumer-6| [thrd:main]: Group "ord_srvc_grp" broker 172.17.0.1:9092/1 is no longer coordinator
+order-service_1    | %7|1591886153.024|NODENAME|rdkafka#consumer-6| [thrd:main]: GroupCoordinator/1: Broker nodename changed from "172.17.0.1:9092" to ""
+order-service_1    | %7|1591886153.024|TERMINATE|rdkafka#consumer-6| [thrd:main]: Internal main thread terminating
+order-service_1    | %7|1591886153.024|DESTROY|rdkafka#consumer-6| [thrd:main]: Destroy internal
+order-service_1    | %7|1591886153.047|BROADCAST|rdkafka#consumer-6| [thrd:main]: Broadcasting state change
+order-service_1    | %7|1591886153.048|DESTROY|rdkafka#consumer-6| [thrd:main]: Removing all topics
+order-service_1    | %7|1591886153.048|PARTCNT|rdkafka#consumer-6| [thrd:main]: Topic fo_pay_sta partition count changed from 1 to 0
+order-service_1    | %7|1591886153.049|REMOVE|rdkafka#consumer-6| [thrd:main]: fo_pay_sta [0] no longer reported in metadata
+order-service_1    | %7|1591886153.050|BRKMIGR|rdkafka#consumer-6| [thrd:main]: fo_pay_sta [0] 0x7f2f2c005dd0 sending final LEAVE for removal by 172.17.0.1:9092/1
+order-service_1    | %7|1591886153.050|TOPPARREMOVE|rdkafka#consumer-6| [thrd:main]: Removing toppar fo_pay_sta [-1] 0x7f2f2c005910
+order-service_1    | %7|1591886153.051|DESTROY|rdkafka#consumer-6| [thrd:main]: fo_pay_sta [-1]: 0x7f2f2c005910 DESTROY_FINAL
+order-service_1    | %7|1591886153.052|DESTROY|rdkafka#consumer-6| [thrd:main]: Sending TERMINATE to 172.17.0.1:9092/1
+order-service_1    | %7|1591886153.052|DESTROY|rdkafka#consumer-6| [thrd:main]: Sending TERMINATE to GroupCoordinator
+order-service_1    | %7|1591886153.053|TERMINATE|rdkafka#consumer-6| [thrd:main]: Purging reply queue
+order-service_1    | %7|1591886153.053|TERMINATE|rdkafka#consumer-6| [thrd:main]: Decommissioning internal broker
+order-service_1    | %7|1591886153.053|TERMINATE|rdkafka#consumer-6| [thrd:main]: Join 3 broker thread(s)
+order-service_1    | %7|1591886153.053|TERM|rdkafka#consumer-6| [thrd::0/internal]: :0/internal: Received TERMINATE op in state INIT: 1 refcnts, 0 toppar(s), 0 active toppar(s), 0 outbufs, 0 waitresps, 0 retrybufs
+order-service_1    | %7|1591886153.051|FETCH|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0] in state stopped at offset 1 (0/100000 msgs, 0/1048576 kb queued, opv 2) is not fetchable: forced removal
+order-service_1    | %7|1591886153.054|FETCHADD|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Removed fo_pay_sta [0] from fetch list (0 entries, opv 2): forced removal
+order-service_1    | %7|1591886153.054|TOPBRK|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0]: leaving broker (0 messages in xmitq, next broker (none), rktp 0x7f2f2c005dd0)
+order-service_1    | %7|1591886153.054|TOPBRK|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Topic fo_pay_sta [0]: no next broker, failing 0 message(s) in partition queue
+order-service_1    | %7|1591886153.054|BROADCAST|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: Broadcasting state change
+order-service_1    | %7|1591886153.054|TERM|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Received TERMINATE op in state UP: 3 refcnts, 0 toppar(s), 0 active toppar(s), 0 outbufs, 1 waitresps, 0 retrybufs
+order-service_1    | %7|1591886153.093|BROKERFAIL|rdkafka#consumer-6| [thrd:GroupCoordinator]: GroupCoordinator: failed: err: Local: Broker transport failure: (errno: Resource temporarily unavailable)
+order-service_1    | %7|1591886153.094|BROKERFAIL|rdkafka#consumer-6| [thrd::0/internal]: :0/internal: failed: err: Local: Broker handle destroyed: (errno: Success)
+order-service_1    | %7|1591886153.095|FAIL|rdkafka#consumer-6| [thrd::0/internal]: :0/internal: Client is terminating (after 109352ms in state INIT)
+order-service_1    | %7|1591886153.096|STATE|rdkafka#consumer-6| [thrd::0/internal]: :0/internal: Broker changed state INIT -> DOWN
+order-service_1    | %7|1591886153.097|BROADCAST|rdkafka#consumer-6| [thrd::0/internal]: Broadcasting state change
+order-service_1    | %7|1591886153.098|BUFQ|rdkafka#consumer-6| [thrd::0/internal]: :0/internal: Purging bufq with 0 buffers
+order-service_1    | %7|1591886153.099|BUFQ|rdkafka#consumer-6| [thrd::0/internal]: :0/internal: Purging bufq with 0 buffers
+order-service_1    | %7|1591886153.099|BUFQ|rdkafka#consumer-6| [thrd::0/internal]: :0/internal: Updating 0 buffers on connection reset
+order-service_1    | %7|1591886153.100|TERMINATE|rdkafka#consumer-6| [thrd::0/internal]: :0/internal: Handle is terminating in state DOWN: 1 refcnts (0x1d620b0), 0 toppar(s), 0 active toppar(s), 0 outbufs, 0 waitresps, 0 retrybufs: failed 0 request(s) in retry+outbuf
+order-service_1    | %7|1591886153.101|BROKERFAIL|rdkafka#consumer-6| [thrd::0/internal]: :0/internal: failed: err: Local: Broker handle destroyed: (errno: Success)
+order-service_1    | %7|1591886153.099|FAIL|rdkafka#consumer-6| [thrd:GroupCoordinator]: GroupCoordinator: Closing connection due to nodename change (after 93120ms in state UP)
+order-service_1    | %7|1591886153.101|STATE|rdkafka#consumer-6| [thrd:GroupCoordinator]: GroupCoordinator: Broker changed state UP -> DOWN
+order-service_1    | %7|1591886153.101|BROADCAST|rdkafka#consumer-6| [thrd:GroupCoordinator]: Broadcasting state change
+order-service_1    | %7|1591886153.101|BUFQ|rdkafka#consumer-6| [thrd:GroupCoordinator]: GroupCoordinator: Purging bufq with 0 buffers
+order-service_1    | %7|1591886153.102|BUFQ|rdkafka#consumer-6| [thrd:GroupCoordinator]: GroupCoordinator: Purging bufq with 0 buffers
+order-service_1    | %7|1591886153.102|BUFQ|rdkafka#consumer-6| [thrd:GroupCoordinator]: GroupCoordinator: Updating 0 buffers on connection reset
+order-service_1    | %7|1591886153.102|METADATA|rdkafka#consumer-6| [thrd:GroupCoordinator]: Requesting metadata for 1/1 topics: broker down
+order-service_1    | %7|1591886153.102|METADATA|rdkafka#consumer-6| [thrd:GroupCoordinator]: 172.17.0.1:9092/1: Request metadata for 1 topic(s): broker down
+order-service_1    | %7|1591886153.102|TERM|rdkafka#consumer-6| [thrd:GroupCoordinator]: GroupCoordinator: Received TERMINATE op in state DOWN: 1 refcnts, 0 toppar(s), 0 active toppar(s), 0 outbufs, 0 waitresps, 0 retrybufs
+order-service_1    | %7|1591886153.102|BROKERFAIL|rdkafka#consumer-6| [thrd:GroupCoordinator]: GroupCoordinator: failed: err: Local: Broker handle destroyed: (errno: Resource temporarily unavailable)
+order-service_1    | %7|1591886153.102|FAIL|rdkafka#consumer-6| [thrd:GroupCoordinator]: GroupCoordinator: Client is terminating (after 1ms in state DOWN)
+order-service_1    | %7|1591886153.103|BUFQ|rdkafka#consumer-6| [thrd:GroupCoordinator]: GroupCoordinator: Purging bufq with 0 buffers
+order-service_1    | %7|1591886153.103|BUFQ|rdkafka#consumer-6| [thrd:GroupCoordinator]: GroupCoordinator: Purging bufq with 0 buffers
+order-service_1    | %7|1591886153.103|BUFQ|rdkafka#consumer-6| [thrd:GroupCoordinator]: GroupCoordinator: Updating 0 buffers on connection reset
+order-service_1    | %7|1591886153.103|TERMINATE|rdkafka#consumer-6| [thrd:GroupCoordinator]: GroupCoordinator: Handle is terminating in state DOWN: 1 refcnts (0x1d61130), 0 toppar(s), 0 active toppar(s), 0 outbufs, 0 waitresps, 0 retrybufs: failed 0 request(s) in retry+outbuf
+order-service_1    | %7|1591886153.103|BROKERFAIL|rdkafka#consumer-6| [thrd:GroupCoordinator]: GroupCoordinator: failed: err: Local: Broker handle destroyed: (errno: Resource temporarily unavailable)
+order-service_1    | %7|1591886153.103|BUFQ|rdkafka#consumer-6| [thrd:GroupCoordinator]: GroupCoordinator: Purging bufq with 0 buffers
+order-service_1    | %7|1591886153.103|BUFQ|rdkafka#consumer-6| [thrd:GroupCoordinator]: GroupCoordinator: Purging bufq with 0 buffers
+order-service_1    | %7|1591886153.103|BUFQ|rdkafka#consumer-6| [thrd:GroupCoordinator]: GroupCoordinator: Updating 0 buffers on connection reset
+order-service_1    | %7|1591886153.094|BROKERFAIL|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: failed: err: Local: Broker handle destroyed: (errno: Resource temporarily unavailable)
+order-service_1    | %7|1591886153.104|FAIL|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Client is terminating (after 109018ms in state UP)
+order-service_1    | %7|1591886153.104|STATE|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Broker changed state UP -> DOWN
+order-service_1    | %7|1591886153.104|BROADCAST|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: Broadcasting state change
+order-service_1    | %7|1591886153.104|BUFQ|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Purging bufq with 1 buffers
+order-service_1    | %7|1591886153.104|TOPPARREMOVE|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: Removing toppar fo_pay_sta [0] 0x7f2f2c005dd0
+order-service_1    | %7|1591886153.104|DESTROY|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: fo_pay_sta [0]: 0x7f2f2c005dd0 DESTROY_FINAL
+order-service_1    | %7|1591886153.104|BUFQ|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Purging bufq with 0 buffers
+order-service_1    | %7|1591886153.104|BUFQ|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Updating 0 buffers on connection reset
+order-service_1    | %7|1591886153.104|BRKTERM|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: terminating: broker still has 2 refcnt(s), 0 buffer(s), 0 partition(s)
+order-service_1    | %7|1591886153.104|TERMINATE|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Handle is terminating in state DOWN: 2 refcnts (0x1d62ea0), 0 toppar(s), 0 active toppar(s), 0 outbufs, 0 waitresps, 0 retrybufs: failed 0 request(s) in retry+outbuf
+order-service_1    | %7|1591886153.104|STATE|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Broker changed state DOWN -> INIT
+order-service_1    | %7|1591886153.104|BROADCAST|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: Broadcasting state change
+order-service_1    | %7|1591886153.104|STATE|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Broker changed state INIT -> TRY_CONNECT
+order-service_1    | %7|1591886153.104|BROADCAST|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: Broadcasting state change
+order-service_1    | %7|1591886153.104|TERMINATE|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Handle is terminating in state TRY_CONNECT: 1 refcnts (0x1d62ea0), 0 toppar(s), 0 active toppar(s), 0 outbufs, 0 waitresps, 0 retrybufs: failed 1 request(s) in retry+outbuf
+order-service_1    | %7|1591886153.104|BROKERFAIL|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: failed: err: Local: Broker handle destroyed: (errno: Resource temporarily unavailable)
+order-service_1    | %7|1591886153.104|STATE|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Broker changed state TRY_CONNECT -> DOWN
+order-service_1    | %7|1591886153.104|BROADCAST|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: Broadcasting state change
+order-service_1    | %7|1591886153.104|BUFQ|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Purging bufq with 0 buffers
+order-service_1    | %7|1591886153.104|BUFQ|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Purging bufq with 0 buffers
+order-service_1    | %7|1591886153.104|BUFQ|rdkafka#consumer-6| [thrd:172.17.0.1:9092/bootstrap]: 172.17.0.1:9092/1: Updating 0 buffers on connection reset
+order-service_1    | %7|1591886153.102|BUFQ|rdkafka#consumer-6| [thrd::0/internal]: :0/internal: Purging bufq with 0 buffers
+order-service_1    | %7|1591886153.105|BUFQ|rdkafka#consumer-6| [thrd::0/internal]: :0/internal: Purging bufq with 0 buffers
+order-service_1    | %7|1591886153.105|BUFQ|rdkafka#consumer-6| [thrd::0/internal]: :0/internal: Updating 0 buffers on connection reset
+order-service_1    | %7|1591886153.144|TERMINATE|rdkafka#consumer-6| [thrd:main]: Internal main thread termination done
+order-service_1    | %7|1591886153.146|TERMINATE|rdkafka#consumer-6| [thrd:app]: Destroying op queues
+order-service_1    | %7|1591886153.148|TERMINATE|rdkafka#consumer-6| [thrd:app]: Destroying cgrp
+order-service_1    | %7|1591886153.149|MEMBERID|rdkafka#consumer-6| [thrd:app]: Group "ord_srvc_grp": updating member id "rdkafka-8d034f09-18f5-487f-a6d3-04b81b938caf" -> "(not-set)"
+order-service_1    | %7|1591886153.150|TERMINATE|rdkafka#consumer-6| [thrd:app]: Termination done: freeing resources
