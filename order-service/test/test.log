@@ -1,0 +1,766 @@
+ss@ss:~/aaa/test$ python3 sequence.py
+creating order
+200
+{
+    "orderId": "5ee8c7ac1531ac000191afe6",
+    "buyerId": "abcd77392",
+    "restaurantId": "asdf32801",
+    "totalCost": 100,
+    "orderedItems": [
+        {
+            "foodId": "asdad91588",
+            "name": "asdad38534",
+            "cost": 25,
+            "qty": 2
+        },
+        {
+            "foodId": "qw22e56972",
+            "name": "asdad18177",
+            "cost": 55,
+            "qty": 1
+        }
+    ],
+    "created": "2020-06-16T13:22:52.9335911Z",
+    "lastUpdated": "2020-06-16T13:22:52.9335901Z",
+    "expireOn": "2020-06-16T13:52:52.9335854Z",
+    "deliveryETAMins": 0,
+    "currentStatus": "RECEIVED"
+}
+tracking order
+200
+{
+    "orderId": "5ee8c7ac1531ac000191afe6",
+    "buyerId": "abcd77392",
+    "restaurantId": "asdf32801",
+    "totalCost": 100,
+    "orderedItems": [
+        {
+            "foodId": "asdad91588",
+            "name": "asdad38534",
+            "cost": 25,
+            "qty": 2
+        },
+        {
+            "foodId": "qw22e56972",
+            "name": "asdad18177",
+            "cost": 55,
+            "qty": 1
+        }
+    ],
+    "created": "2020-06-16T13:22:52.933Z",
+    "lastUpdated": "2020-06-16T13:22:52.933Z",
+    "expireOn": "2020-06-16T13:52:52.933Z",
+    "deliveryETAMins": 0,
+    "currentStatus": "RECEIVED"
+}
+consuming topic: rec
+fo_ord_rec:0:1: key=None value={'orderId': '5ee8c7561531ac000191afe5', 'buyerId': 'abcd49500', 'restaurantId': 'asdf76007', 'totalCost': 100, 'orderedItems': [{'foodId': 'asdad44995', 'name': 'asdad60751', 'cost': 25, 'qty': 2}, {'foodId': 'qw22e24248', 'name': 'asdad22118', 'cost': 55, 'qty': 1}]}
+('__TypeId__', b'ord_rec')
+fo_ord_rec:1:2: key=None value={'orderId': '5ee8c7ac1531ac000191afe6', 'buyerId': 'abcd77392', 'restaurantId': 'asdf32801', 'totalCost': 100, 'orderedItems': [{'foodId': 'asdad91588', 'name': 'asdad38534', 'cost': 25, 'qty': 2}, {'foodId': 'qw22e56972', 'name': 'asdad18177', 'cost': 55, 'qty': 1}]}
+('__TypeId__', b'ord_rec')
+consumed topic: rec
+fo_ord_cnf
+1
+0
+tracking order
+200
+{
+    "orderId": "5ee8c7ac1531ac000191afe6",
+    "buyerId": "abcd77392",
+    "restaurantId": "asdf32801",
+    "totalCost": 100,
+    "orderedItems": [
+        {
+            "foodId": "asdad91588",
+            "name": "asdad38534",
+            "cost": 25,
+            "qty": 2
+        },
+        {
+            "foodId": "qw22e56972",
+            "name": "asdad18177",
+            "cost": 55,
+            "qty": 1
+        }
+    ],
+    "created": "2020-06-16T13:22:52.933Z",
+    "lastUpdated": "2020-06-16T13:22:59.18Z",
+    "expireOn": "2020-06-16T13:52:59.176Z",
+    "deliveryETAMins": 20,
+    "currentStatus": "CONFIRMED"
+}
+fo_pay_sta
+1
+3
+tracking order
+200
+{
+    "orderId": "5ee8c7ac1531ac000191afe6",
+    "buyerId": "abcd77392",
+    "restaurantId": "asdf32801",
+    "totalCost": 100,
+    "orderedItems": [
+        {
+            "foodId": "asdad91588",
+            "name": "asdad38534",
+            "cost": 25,
+            "qty": 2
+        },
+        {
+            "foodId": "qw22e56972",
+            "name": "asdad18177",
+            "cost": 55,
+            "qty": 1
+        }
+    ],
+    "created": "2020-06-16T13:22:52.933Z",
+    "lastUpdated": "2020-06-16T13:23:02.24Z",
+    "expireOn": "2020-06-16T13:53:02.24Z",
+    "deliveryETAMins": 20,
+    "currentStatus": "PAYMENT_SUCCESS"
+}
+cancel order
+200
+consuming topic: can
+fo_ord_can:0:0: key=None value={'orderId': '5ee8c6eb1531ac000191afe2', 'buyerId': 'abcd72756', 'restaurantId': 'asdf80755', 'reason': 'USER_CANCELLED'}
+('__TypeId__', b'ord_can')
+fo_ord_can:0:1: key=None value={'orderId': '5ee8c6fd1531ac000191afe3', 'buyerId': 'abcd67186', 'restaurantId': 'asdf78849', 'reason': 'RESTAURANT_CANCELLED'}
+fo_ord_can:0:2: key=None value={'orderId': '5ee8c7451531ac000191afe4', 'buyerId': 'abcd64312', 'restaurantId': 'asdf90564', 'reason': 'USER_CANCELLED'}
+('__TypeId__', b'ord_can')
+fo_ord_can:0:3: key=None value={'orderId': '5ee8c7ac1531ac000191afe6', 'buyerId': 'abcd77392', 'restaurantId': 'asdf32801', 'reason': 'USER_CANCELLED'}
+('__TypeId__', b'ord_can')
+fo_ord_can:1:0: key=None value={'orderId': '5ee8c7561531ac000191afe5', 'buyerId': 'abcd49500', 'restaurantId': 'asdf76007', 'reason': 'RESTAURANT_CANCELLED'}
+consumed topic: can
+tracking order
+200
+{
+    "orderId": "5ee8c7ac1531ac000191afe6",
+    "buyerId": "abcd77392",
+    "restaurantId": "asdf32801",
+    "totalCost": 100,
+    "orderedItems": [
+        {
+            "foodId": "asdad91588",
+            "name": "asdad38534",
+            "cost": 25,
+            "qty": 2
+        },
+        {
+            "foodId": "qw22e56972",
+            "name": "asdad18177",
+            "cost": 55,
+            "qty": 1
+        }
+    ],
+    "created": "2020-06-16T13:22:52.933Z",
+    "lastUpdated": "2020-06-16T13:23:05.245Z",
+    "expireOn": "2020-06-16T13:28:05.245Z",
+    "deliveryETAMins": 20,
+    "currentStatus": "USER_CANCELLED"
+}
+completed scenario 1
+creating order
+200
+{
+    "orderId": "5ee8c7bc1531ac000191afe7",
+    "buyerId": "abcd48082",
+    "restaurantId": "asdf24797",
+    "totalCost": 100,
+    "orderedItems": [
+        {
+            "foodId": "asdad73463",
+            "name": "asdad79629",
+            "cost": 25,
+            "qty": 2
+        },
+        {
+            "foodId": "qw22e10636",
+            "name": "asdad61875",
+            "cost": 55,
+            "qty": 1
+        }
+    ],
+    "created": "2020-06-16T13:23:08.5450479Z",
+    "lastUpdated": "2020-06-16T13:23:08.5450468Z",
+    "expireOn": "2020-06-16T13:53:08.5450419Z",
+    "deliveryETAMins": 0,
+    "currentStatus": "RECEIVED"
+}
+tracking order
+200
+{
+    "orderId": "5ee8c7bc1531ac000191afe7",
+    "buyerId": "abcd48082",
+    "restaurantId": "asdf24797",
+    "totalCost": 100,
+    "orderedItems": [
+        {
+            "foodId": "asdad73463",
+            "name": "asdad79629",
+            "cost": 25,
+            "qty": 2
+        },
+        {
+            "foodId": "qw22e10636",
+            "name": "asdad61875",
+            "cost": 55,
+            "qty": 1
+        }
+    ],
+    "created": "2020-06-16T13:23:08.545Z",
+    "lastUpdated": "2020-06-16T13:23:08.545Z",
+    "expireOn": "2020-06-16T13:53:08.545Z",
+    "deliveryETAMins": 0,
+    "currentStatus": "RECEIVED"
+}
+fo_pay_sta
+0
+1
+tracking order
+200
+{
+    "orderId": "5ee8c7bc1531ac000191afe7",
+    "buyerId": "abcd48082",
+    "restaurantId": "asdf24797",
+    "totalCost": 100,
+    "orderedItems": [
+        {
+            "foodId": "asdad73463",
+            "name": "asdad79629",
+            "cost": 25,
+            "qty": 2
+        },
+        {
+            "foodId": "qw22e10636",
+            "name": "asdad61875",
+            "cost": 55,
+            "qty": 1
+        }
+    ],
+    "created": "2020-06-16T13:23:08.545Z",
+    "lastUpdated": "2020-06-16T13:23:11.613Z",
+    "expireOn": "2020-06-16T13:53:11.613Z",
+    "deliveryETAMins": 0,
+    "currentStatus": "PAYMENT_SUCCESS"
+}
+fo_ord_cnf
+1
+1
+tracking order
+200
+{
+    "orderId": "5ee8c7bc1531ac000191afe7",
+    "buyerId": "abcd48082",
+    "restaurantId": "asdf24797",
+    "totalCost": 100,
+    "orderedItems": [
+        {
+            "foodId": "asdad73463",
+            "name": "asdad79629",
+            "cost": 25,
+            "qty": 2
+        },
+        {
+            "foodId": "qw22e10636",
+            "name": "asdad61875",
+            "cost": 55,
+            "qty": 1
+        }
+    ],
+    "created": "2020-06-16T13:23:08.545Z",
+    "lastUpdated": "2020-06-16T13:23:14.638Z",
+    "expireOn": "2020-06-16T13:53:14.638Z",
+    "deliveryETAMins": 20,
+    "currentStatus": "CONFIRMED"
+}
+cancel order
+200
+consuming topic: can
+fo_ord_can:1:1: key=None value={'orderId': '5ee8c7bc1531ac000191afe7', 'buyerId': 'abcd48082', 'restaurantId': 'asdf24797', 'reason': 'USER_CANCELLED'}
+('__TypeId__', b'ord_can')
+consumed topic: can
+tracking order
+200
+{
+    "orderId": "5ee8c7bc1531ac000191afe7",
+    "buyerId": "abcd48082",
+    "restaurantId": "asdf24797",
+    "totalCost": 100,
+    "orderedItems": [
+        {
+            "foodId": "asdad73463",
+            "name": "asdad79629",
+            "cost": 25,
+            "qty": 2
+        },
+        {
+            "foodId": "qw22e10636",
+            "name": "asdad61875",
+            "cost": 55,
+            "qty": 1
+        }
+    ],
+    "created": "2020-06-16T13:23:08.545Z",
+    "lastUpdated": "2020-06-16T13:23:17.74Z",
+    "expireOn": "2020-06-16T13:28:17.74Z",
+    "deliveryETAMins": 20,
+    "currentStatus": "USER_CANCELLED"
+}
+completed scenario 2
+creating order
+200
+{
+    "orderId": "5ee8c7c81531ac000191afe8",
+    "buyerId": "abcd58561",
+    "restaurantId": "asdf80066",
+    "totalCost": 100,
+    "orderedItems": [
+        {
+            "foodId": "asdad79955",
+            "name": "asdad95547",
+            "cost": 25,
+            "qty": 2
+        },
+        {
+            "foodId": "qw22e67100",
+            "name": "asdad92759",
+            "cost": 55,
+            "qty": 1
+        }
+    ],
+    "created": "2020-06-16T13:23:20.8009454Z",
+    "lastUpdated": "2020-06-16T13:23:20.8009443Z",
+    "expireOn": "2020-06-16T13:53:20.8009393Z",
+    "deliveryETAMins": 0,
+    "currentStatus": "RECEIVED"
+}
+tracking order
+200
+{
+    "orderId": "5ee8c7c81531ac000191afe8",
+    "buyerId": "abcd58561",
+    "restaurantId": "asdf80066",
+    "totalCost": 100,
+    "orderedItems": [
+        {
+            "foodId": "asdad79955",
+            "name": "asdad95547",
+            "cost": 25,
+            "qty": 2
+        },
+        {
+            "foodId": "qw22e67100",
+            "name": "asdad92759",
+            "cost": 55,
+            "qty": 1
+        }
+    ],
+    "created": "2020-06-16T13:23:20.8Z",
+    "lastUpdated": "2020-06-16T13:23:20.8Z",
+    "expireOn": "2020-06-16T13:53:20.8Z",
+    "deliveryETAMins": 0,
+    "currentStatus": "RECEIVED"
+}
+fo_pay_sta
+1
+4
+tracking order
+200
+{
+    "orderId": "5ee8c7c81531ac000191afe8",
+    "buyerId": "abcd58561",
+    "restaurantId": "asdf80066",
+    "totalCost": 100,
+    "orderedItems": [
+        {
+            "foodId": "asdad79955",
+            "name": "asdad95547",
+            "cost": 25,
+            "qty": 2
+        },
+        {
+            "foodId": "qw22e67100",
+            "name": "asdad92759",
+            "cost": 55,
+            "qty": 1
+        }
+    ],
+    "created": "2020-06-16T13:23:20.8Z",
+    "lastUpdated": "2020-06-16T13:23:23.858Z",
+    "expireOn": "2020-06-16T13:28:23.858Z",
+    "deliveryETAMins": 0,
+    "currentStatus": "PAYMENT_FAIL"
+}
+fo_ord_cnf
+1
+2
+tracking order
+200
+{
+    "orderId": "5ee8c7c81531ac000191afe8",
+    "buyerId": "abcd58561",
+    "restaurantId": "asdf80066",
+    "totalCost": 100,
+    "orderedItems": [
+        {
+            "foodId": "asdad79955",
+            "name": "asdad95547",
+            "cost": 25,
+            "qty": 2
+        },
+        {
+            "foodId": "qw22e67100",
+            "name": "asdad92759",
+            "cost": 55,
+            "qty": 1
+        }
+    ],
+    "created": "2020-06-16T13:23:20.8Z",
+    "lastUpdated": "2020-06-16T13:23:23.858Z",
+    "expireOn": "2020-06-16T13:28:23.858Z",
+    "deliveryETAMins": 0,
+    "currentStatus": "PAYMENT_FAIL"
+}
+cancel order
+400
+{
+    "message": "Order id:5ee8c7c81531ac000191afe8 has been cancelled already."
+}
+consuming topic: can
+consumed topic: can
+tracking order
+200
+{
+    "orderId": "5ee8c7c81531ac000191afe8",
+    "buyerId": "abcd58561",
+    "restaurantId": "asdf80066",
+    "totalCost": 100,
+    "orderedItems": [
+        {
+            "foodId": "asdad79955",
+            "name": "asdad95547",
+            "cost": 25,
+            "qty": 2
+        },
+        {
+            "foodId": "qw22e67100",
+            "name": "asdad92759",
+            "cost": 55,
+            "qty": 1
+        }
+    ],
+    "created": "2020-06-16T13:23:20.8Z",
+    "lastUpdated": "2020-06-16T13:23:23.858Z",
+    "expireOn": "2020-06-16T13:28:23.858Z",
+    "deliveryETAMins": 0,
+    "currentStatus": "PAYMENT_FAIL"
+}
+completed scenario 3
+creating order
+200
+{
+    "orderId": "5ee8c7d61531ac000191afe9",
+    "buyerId": "abcd67752",
+    "restaurantId": "asdf21549",
+    "totalCost": 100,
+    "orderedItems": [
+        {
+            "foodId": "asdad93015",
+            "name": "asdad73573",
+            "cost": 25,
+            "qty": 2
+        },
+        {
+            "foodId": "qw22e48057",
+            "name": "asdad68133",
+            "cost": 55,
+            "qty": 1
+        }
+    ],
+    "created": "2020-06-16T13:23:34.4679828Z",
+    "lastUpdated": "2020-06-16T13:23:34.4679802Z",
+    "expireOn": "2020-06-16T13:53:34.4679694Z",
+    "deliveryETAMins": 0,
+    "currentStatus": "RECEIVED"
+}
+tracking order
+200
+{
+    "orderId": "5ee8c7d61531ac000191afe9",
+    "buyerId": "abcd67752",
+    "restaurantId": "asdf21549",
+    "totalCost": 100,
+    "orderedItems": [
+        {
+            "foodId": "asdad93015",
+            "name": "asdad73573",
+            "cost": 25,
+            "qty": 2
+        },
+        {
+            "foodId": "qw22e48057",
+            "name": "asdad68133",
+            "cost": 55,
+            "qty": 1
+        }
+    ],
+    "created": "2020-06-16T13:23:34.467Z",
+    "lastUpdated": "2020-06-16T13:23:34.467Z",
+    "expireOn": "2020-06-16T13:53:34.467Z",
+    "deliveryETAMins": 0,
+    "currentStatus": "RECEIVED"
+}
+consuming topic: rec
+fo_ord_rec:0:2: key=None value={'orderId': '5ee8c7bc1531ac000191afe7', 'buyerId': 'abcd48082', 'restaurantId': 'asdf24797', 'totalCost': 100, 'orderedItems': [{'foodId': 'asdad73463', 'name': 'asdad79629', 'cost': 25, 'qty': 2}, {'foodId': 'qw22e10636', 'name': 'asdad61875', 'cost': 55, 'qty': 1}]}
+('__TypeId__', b'ord_rec')
+fo_ord_rec:0:3: key=None value={'orderId': '5ee8c7c81531ac000191afe8', 'buyerId': 'abcd58561', 'restaurantId': 'asdf80066', 'totalCost': 100, 'orderedItems': [{'foodId': 'asdad79955', 'name': 'asdad95547', 'cost': 25, 'qty': 2}, {'foodId': 'qw22e67100', 'name': 'asdad92759', 'cost': 55, 'qty': 1}]}
+('__TypeId__', b'ord_rec')
+fo_ord_rec:1:3: key=None value={'orderId': '5ee8c7d61531ac000191afe9', 'buyerId': 'abcd67752', 'restaurantId': 'asdf21549', 'totalCost': 100, 'orderedItems': [{'foodId': 'asdad93015', 'name': 'asdad73573', 'cost': 25, 'qty': 2}, {'foodId': 'qw22e48057', 'name': 'asdad68133', 'cost': 55, 'qty': 1}]}
+('__TypeId__', b'ord_rec')
+consumed topic: rec
+cancel order
+200
+consuming topic: can
+fo_ord_can:1:2: key=None value={'orderId': '5ee8c7d61531ac000191afe9', 'buyerId': 'abcd67752', 'restaurantId': 'asdf21549', 'reason': 'USER_CANCELLED'}
+('__TypeId__', b'ord_can')
+consumed topic: can
+tracking order
+200
+{
+    "orderId": "5ee8c7d61531ac000191afe9",
+    "buyerId": "abcd67752",
+    "restaurantId": "asdf21549",
+    "totalCost": 100,
+    "orderedItems": [
+        {
+            "foodId": "asdad93015",
+            "name": "asdad73573",
+            "cost": 25,
+            "qty": 2
+        },
+        {
+            "foodId": "qw22e48057",
+            "name": "asdad68133",
+            "cost": 55,
+            "qty": 1
+        }
+    ],
+    "created": "2020-06-16T13:23:34.467Z",
+    "lastUpdated": "2020-06-16T13:23:40.545Z",
+    "expireOn": "2020-06-16T13:28:40.544Z",
+    "deliveryETAMins": 0,
+    "currentStatus": "USER_CANCELLED"
+}
+fo_pay_sta
+0
+2
+tracking order
+200
+{
+    "orderId": "5ee8c7d61531ac000191afe9",
+    "buyerId": "abcd67752",
+    "restaurantId": "asdf21549",
+    "totalCost": 100,
+    "orderedItems": [
+        {
+            "foodId": "asdad93015",
+            "name": "asdad73573",
+            "cost": 25,
+            "qty": 2
+        },
+        {
+            "foodId": "qw22e48057",
+            "name": "asdad68133",
+            "cost": 55,
+            "qty": 1
+        }
+    ],
+    "created": "2020-06-16T13:23:34.467Z",
+    "lastUpdated": "2020-06-16T13:23:40.545Z",
+    "expireOn": "2020-06-16T13:28:40.544Z",
+    "deliveryETAMins": 0,
+    "currentStatus": "USER_CANCELLED"
+}
+fo_ord_cnf
+0
+2
+tracking order
+200
+{
+    "orderId": "5ee8c7d61531ac000191afe9",
+    "buyerId": "abcd67752",
+    "restaurantId": "asdf21549",
+    "totalCost": 100,
+    "orderedItems": [
+        {
+            "foodId": "asdad93015",
+            "name": "asdad73573",
+            "cost": 25,
+            "qty": 2
+        },
+        {
+            "foodId": "qw22e48057",
+            "name": "asdad68133",
+            "cost": 55,
+            "qty": 1
+        }
+    ],
+    "created": "2020-06-16T13:23:34.467Z",
+    "lastUpdated": "2020-06-16T13:23:40.545Z",
+    "expireOn": "2020-06-16T13:28:40.544Z",
+    "deliveryETAMins": 0,
+    "currentStatus": "USER_CANCELLED"
+}
+completed scenario 4
+creating order
+200
+{
+    "orderId": "5ee8c7e71531ac000191afea",
+    "buyerId": "abcd54746",
+    "restaurantId": "asdf14290",
+    "totalCost": 100,
+    "orderedItems": [
+        {
+            "foodId": "asdad42331",
+            "name": "asdad81793",
+            "cost": 25,
+            "qty": 2
+        },
+        {
+            "foodId": "qw22e56977",
+            "name": "asdad58516",
+            "cost": 55,
+            "qty": 1
+        }
+    ],
+    "created": "2020-06-16T13:23:51.7226166Z",
+    "lastUpdated": "2020-06-16T13:23:51.7226153Z",
+    "expireOn": "2020-06-16T13:53:51.7226103Z",
+    "deliveryETAMins": 0,
+    "currentStatus": "RECEIVED"
+}
+tracking order
+200
+{
+    "orderId": "5ee8c7e71531ac000191afea",
+    "buyerId": "abcd54746",
+    "restaurantId": "asdf14290",
+    "totalCost": 100,
+    "orderedItems": [
+        {
+            "foodId": "asdad42331",
+            "name": "asdad81793",
+            "cost": 25,
+            "qty": 2
+        },
+        {
+            "foodId": "qw22e56977",
+            "name": "asdad58516",
+            "cost": 55,
+            "qty": 1
+        }
+    ],
+    "created": "2020-06-16T13:23:51.722Z",
+    "lastUpdated": "2020-06-16T13:23:51.722Z",
+    "expireOn": "2020-06-16T13:53:51.722Z",
+    "deliveryETAMins": 0,
+    "currentStatus": "RECEIVED"
+}
+consuming topic: rec
+fo_ord_rec:1:4: key=None value={'orderId': '5ee8c7e71531ac000191afea', 'buyerId': 'abcd54746', 'restaurantId': 'asdf14290', 'totalCost': 100, 'orderedItems': [{'foodId': 'asdad42331', 'name': 'asdad81793', 'cost': 25, 'qty': 2}, {'foodId': 'qw22e56977', 'name': 'asdad58516', 'cost': 55, 'qty': 1}]}
+('__TypeId__', b'ord_rec')
+consumed topic: rec
+fo_ord_can
+0
+4
+tracking order
+200
+{
+    "orderId": "5ee8c7e71531ac000191afea",
+    "buyerId": "abcd54746",
+    "restaurantId": "asdf14290",
+    "totalCost": 100,
+    "orderedItems": [
+        {
+            "foodId": "asdad42331",
+            "name": "asdad81793",
+            "cost": 25,
+            "qty": 2
+        },
+        {
+            "foodId": "qw22e56977",
+            "name": "asdad58516",
+            "cost": 55,
+            "qty": 1
+        }
+    ],
+    "created": "2020-06-16T13:23:51.722Z",
+    "lastUpdated": "2020-06-16T13:23:57.795Z",
+    "expireOn": "2020-06-16T13:28:57.794Z",
+    "deliveryETAMins": 0,
+    "currentStatus": "RESTAURANT_CANCELLED"
+}
+fo_pay_sta
+1
+5
+tracking order
+200
+{
+    "orderId": "5ee8c7e71531ac000191afea",
+    "buyerId": "abcd54746",
+    "restaurantId": "asdf14290",
+    "totalCost": 100,
+    "orderedItems": [
+        {
+            "foodId": "asdad42331",
+            "name": "asdad81793",
+            "cost": 25,
+            "qty": 2
+        },
+        {
+            "foodId": "qw22e56977",
+            "name": "asdad58516",
+            "cost": 55,
+            "qty": 1
+        }
+    ],
+    "created": "2020-06-16T13:23:51.722Z",
+    "lastUpdated": "2020-06-16T13:23:57.795Z",
+    "expireOn": "2020-06-16T13:28:57.794Z",
+    "deliveryETAMins": 0,
+    "currentStatus": "RESTAURANT_CANCELLED"
+}
+completed scenario 5
+creating order
+400
+{
+    "errors": {
+        "BuyerId": [
+            "The BuyerId field is required."
+        ],
+        "OrderedItems[1].FoodId": [
+            "The FoodId field is required."
+        ]
+    },
+    "type": "https://tools.ietf.org/html/rfc7231#section-6.5.1",
+    "title": "One or more validation errors occurred.",
+    "status": 400,
+    "traceId": "|a8af683f-47af9a55f9461ffb."
+}
+cancel order
+400
+{
+    "message": "Order id:5ee8c7e71531ac000191afea has been cancelled already."
+}
+cancel order
+400
+{
+    "message": "'abcd' is not a valid 24 digit hex string."
+}
+tracking order
+400
+{
+    "message": "Invalid order id."
+}
+completed negative scenarios
+ss@ss:~/aaa/test$

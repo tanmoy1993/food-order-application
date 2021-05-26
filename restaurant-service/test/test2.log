@@ -1,0 +1,1559 @@
+creating user
+200
+{
+    "id": "5ed90ee04697cc11bccef0f0",
+    "userId": "675CF766599D0B2BD29E17FE2356E76A836AF3578EA84D05702C1EA0D0546CB4",
+    "userName": "uname92153",
+    "email": "email64953@xx.com",
+    "phone": "1655094147",
+    "passwordHash": "****"
+}
+login user
+400
+{
+    "message": "User name and password does not exist."
+}
+creating user
+400
+{
+    "message": "User name already exists."
+}
+login user
+200
+{
+    "id": "5ed90ee04697cc11bccef0f0",
+    "userId": "675CF766599D0B2BD29E17FE2356E76A836AF3578EA84D05702C1EA0D0546CB4",
+    "userName": "uname92153",
+    "email": "email64953@xx.com",
+    "phone": "1655094147",
+    "passwordHash": "****"
+}
+creating invalid user
+400
+{
+    "message": "User name can not be null or empty.Password can not be null or empty."
+}
+creating restaurant
+200
+{
+    "id": "5ed90ee34697cc11bccef0f2",
+    "userId": "5ed90ee04697cc11bccef0f0",
+    "email": "email64953@xx.com",
+    "phone": "1655094147",
+    "restaurantName": "restname37245",
+    "priceRangeMin": 300,
+    "priceRangeMax": 800,
+    "zipCodesDelivered": [
+        2001,
+        2002
+    ]
+}
+creating restaurant
+200
+{
+    "id": "5ed90ee64697cc11bccef0f5",
+    "userId": "5ed90ee04697cc11bccef0f0",
+    "email": "email64953@xx.com",
+    "phone": "1655094147",
+    "restaurantName": "restname91491",
+    "priceRangeMin": 300,
+    "priceRangeMax": 800,
+    "zipCodesDelivered": [
+        2002,
+        2003
+    ]
+}
+creating restaurant invalid user
+400
+{
+    "message": "Invalid user Id."
+}
+creating restaurant invalid model
+400
+{
+    "message": "Restaurant name can not be null or empty.At least one zip code needed."
+}
+get restaurant user
+200
+[
+    {
+        "id": "5ed90ee34697cc11bccef0f2",
+        "userId": "5ed90ee04697cc11bccef0f0",
+        "email": "email64953@xx.com",
+        "phone": "1655094147",
+        "restaurantName": "restname37245",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800,
+        "zipCodesDelivered": [
+            2001,
+            2002
+        ]
+    },
+    {
+        "id": "5ed90ee64697cc11bccef0f5",
+        "userId": "5ed90ee04697cc11bccef0f0",
+        "email": "email64953@xx.com",
+        "phone": "1655094147",
+        "restaurantName": "restname91491",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800,
+        "zipCodesDelivered": [
+            2002,
+            2003
+        ]
+    }
+]
+get restaurant zip: 2001
+200
+[
+    {
+        "id": "5ed556eaf2200e468c39881a",
+        "zip": 2001,
+        "restaurantId": "5ed556eaf2200e468c398819",
+        "restaurantName": "restname65666",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed5570ef2200e468c398822",
+        "zip": 2001,
+        "restaurantId": "5ed5570ef2200e468c398821",
+        "restaurantName": "restname26433",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55737f2200e468c39882a",
+        "zip": 2001,
+        "restaurantId": "5ed55737f2200e468c398829",
+        "restaurantName": "restname32659",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55799f2200e468c398833",
+        "zip": 2001,
+        "restaurantId": "5ed55799f2200e468c398831",
+        "restaurantName": "restname72411",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed557e8f2200e468c39883a",
+        "zip": 2001,
+        "restaurantId": "5ed557e8f2200e468c398839",
+        "restaurantName": "updated name79113",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55834f2200e468c398842",
+        "zip": 2001,
+        "restaurantId": "5ed55834f2200e468c398841",
+        "restaurantName": "updated name20076",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55856f2200e468c39884a",
+        "zip": 2001,
+        "restaurantId": "5ed55856f2200e468c398849",
+        "restaurantName": "updated name36024",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55895f2200e468c398852",
+        "zip": 2001,
+        "restaurantId": "5ed55895f2200e468c398851",
+        "restaurantName": "updated name45707",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed8fa2d080c8b452cad8b83",
+        "zip": 2001,
+        "restaurantId": "5ed8fa2d080c8b452cad8b82",
+        "restaurantName": "restname98666",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed8fa61080c8b452cad8b88",
+        "zip": 2001,
+        "restaurantId": "5ed8fa61080c8b452cad8b87",
+        "restaurantName": "restname32414",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed90ee34697cc11bccef0f3",
+        "zip": 2001,
+        "restaurantId": "5ed90ee34697cc11bccef0f2",
+        "restaurantName": "restname37245",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    }
+]
+get restaurant zip: 2002
+200
+[
+    {
+        "id": "5ed556eaf2200e468c39881b",
+        "zip": 2002,
+        "restaurantId": "5ed556eaf2200e468c398819",
+        "restaurantName": "restname65666",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed556eaf2200e468c39881d",
+        "zip": 2002,
+        "restaurantId": "5ed556eaf2200e468c39881c",
+        "restaurantName": "restname14603",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed5570ef2200e468c398823",
+        "zip": 2002,
+        "restaurantId": "5ed5570ef2200e468c398821",
+        "restaurantName": "restname26433",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed5570ef2200e468c398825",
+        "zip": 2002,
+        "restaurantId": "5ed5570ef2200e468c398824",
+        "restaurantName": "restname59626",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55737f2200e468c39882b",
+        "zip": 2002,
+        "restaurantId": "5ed55737f2200e468c398829",
+        "restaurantName": "restname32659",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55737f2200e468c39882d",
+        "zip": 2002,
+        "restaurantId": "5ed55737f2200e468c39882c",
+        "restaurantName": "restname42542",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55799f2200e468c398834",
+        "zip": 2002,
+        "restaurantId": "5ed55799f2200e468c398831",
+        "restaurantName": "restname72411",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55799f2200e468c398835",
+        "zip": 2002,
+        "restaurantId": "5ed55799f2200e468c398832",
+        "restaurantName": "restname50562",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed557e8f2200e468c39883b",
+        "zip": 2002,
+        "restaurantId": "5ed557e8f2200e468c398839",
+        "restaurantName": "updated name79113",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed557e8f2200e468c39883d",
+        "zip": 2002,
+        "restaurantId": "5ed557e8f2200e468c39883c",
+        "restaurantName": "restname57520",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55834f2200e468c398843",
+        "zip": 2002,
+        "restaurantId": "5ed55834f2200e468c398841",
+        "restaurantName": "updated name20076",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55834f2200e468c398845",
+        "zip": 2002,
+        "restaurantId": "5ed55834f2200e468c398844",
+        "restaurantName": "restname20190",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55856f2200e468c39884b",
+        "zip": 2002,
+        "restaurantId": "5ed55856f2200e468c398849",
+        "restaurantName": "updated name36024",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55856f2200e468c39884d",
+        "zip": 2002,
+        "restaurantId": "5ed55856f2200e468c39884c",
+        "restaurantName": "restname97954",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55895f2200e468c398853",
+        "zip": 2002,
+        "restaurantId": "5ed55895f2200e468c398851",
+        "restaurantName": "updated name45707",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55895f2200e468c398855",
+        "zip": 2002,
+        "restaurantId": "5ed55895f2200e468c398854",
+        "restaurantName": "restname64438",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed558aff2200e468c39885b",
+        "zip": 2002,
+        "restaurantId": "5ed558aff2200e468c398859",
+        "restaurantName": "updated name89232",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed558aff2200e468c39885d",
+        "zip": 2002,
+        "restaurantId": "5ed558aff2200e468c39885c",
+        "restaurantName": "restname10085",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55a20f2200e468c398864",
+        "zip": 2002,
+        "restaurantId": "5ed55a20f2200e468c398862",
+        "restaurantName": "updated name70081",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55a20f2200e468c398866",
+        "zip": 2002,
+        "restaurantId": "5ed55a20f2200e468c398865",
+        "restaurantName": "restname67576",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55a85f2200e468c39886f",
+        "zip": 2002,
+        "restaurantId": "5ed55a85f2200e468c39886e",
+        "restaurantName": "restname52384",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55a9df2200e468c39887b",
+        "zip": 2002,
+        "restaurantId": "5ed55a9df2200e468c39887a",
+        "restaurantName": "restname75913",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55aa6f2200e468c398885",
+        "zip": 2002,
+        "restaurantId": "5ed55aa6f2200e468c398883",
+        "restaurantName": "updated name14934",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55aa7f2200e468c398887",
+        "zip": 2002,
+        "restaurantId": "5ed55aa7f2200e468c398886",
+        "restaurantName": "restname24143",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55bb6f2200e468c398890",
+        "zip": 2002,
+        "restaurantId": "5ed55bb6f2200e468c39888f",
+        "restaurantName": "restname44296",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55cbbf2200e468c39889c",
+        "zip": 2002,
+        "restaurantId": "5ed55cbbf2200e468c39889b",
+        "restaurantName": "restname77354",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55d6af2200e468c3988a8",
+        "zip": 2002,
+        "restaurantId": "5ed55d6af2200e468c3988a7",
+        "restaurantName": "restname35678",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed788ed36c4ff45806ce525",
+        "zip": 2002,
+        "restaurantId": "5ed788ed36c4ff45806ce524",
+        "restaurantName": "restname21641",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed7894636c4ff45806ce531",
+        "zip": 2002,
+        "restaurantId": "5ed7894636c4ff45806ce530",
+        "restaurantName": "restname38560",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed78fc6f607643321dfb1df",
+        "zip": 2002,
+        "restaurantId": "5ed78fc6f607643321dfb1de",
+        "restaurantName": "restname38020",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed79133cba2a23acaa16aca",
+        "zip": 2002,
+        "restaurantId": "5ed79133cba2a23acaa16ac9",
+        "restaurantName": "restname82646",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed7938290c4cc0ff54153a8",
+        "zip": 2002,
+        "restaurantId": "5ed7938290c4cc0ff54153a7",
+        "restaurantName": "restname59681",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed7963ae6289a2cbafcb0ee",
+        "zip": 2002,
+        "restaurantId": "5ed7963ae6289a2cbafcb0ed",
+        "restaurantName": "restname37435",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed79763e6289a2cbafcb0fa",
+        "zip": 2002,
+        "restaurantId": "5ed79763e6289a2cbafcb0f9",
+        "restaurantName": "restname49995",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed79793e6289a2cbafcb106",
+        "zip": 2002,
+        "restaurantId": "5ed79793e6289a2cbafcb105",
+        "restaurantName": "restname20567",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed79869e6289a2cbafcb112",
+        "zip": 2002,
+        "restaurantId": "5ed79869e6289a2cbafcb111",
+        "restaurantName": "restname30760",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed79bad861d9306681d545d",
+        "zip": 2002,
+        "restaurantId": "5ed79bad861d9306681d545c",
+        "restaurantName": "restname61398",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed79bd6861d9306681d5469",
+        "zip": 2002,
+        "restaurantId": "5ed79bd6861d9306681d5468",
+        "restaurantName": "restname91796",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed79c4d861d9306681d5475",
+        "zip": 2002,
+        "restaurantId": "5ed79c4d861d9306681d5474",
+        "restaurantName": "restname71376",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed79dc40393c84e95fc744b",
+        "zip": 2002,
+        "restaurantId": "5ed79dc40393c84e95fc744a",
+        "restaurantName": "restname99414",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed79dec0393c84e95fc7457",
+        "zip": 2002,
+        "restaurantId": "5ed79dec0393c84e95fc7456",
+        "restaurantName": "restname76911",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed79f8d1b56cb2fd9a0ffcd",
+        "zip": 2002,
+        "restaurantId": "5ed79f8d1b56cb2fd9a0ffcc",
+        "restaurantName": "restname17900",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed79ff71b56cb2fd9a0ffd9",
+        "zip": 2002,
+        "restaurantId": "5ed79ff71b56cb2fd9a0ffd8",
+        "restaurantName": "restname59251",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed8fa2d080c8b452cad8b84",
+        "zip": 2002,
+        "restaurantId": "5ed8fa2d080c8b452cad8b82",
+        "restaurantName": "restname98666",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed8fa61080c8b452cad8b89",
+        "zip": 2002,
+        "restaurantId": "5ed8fa61080c8b452cad8b87",
+        "restaurantName": "restname32414",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed90ee34697cc11bccef0f4",
+        "zip": 2002,
+        "restaurantId": "5ed90ee34697cc11bccef0f2",
+        "restaurantName": "restname37245",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed90ee64697cc11bccef0f6",
+        "zip": 2002,
+        "restaurantId": "5ed90ee64697cc11bccef0f5",
+        "restaurantName": "restname91491",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    }
+]
+updating restaurant: {'id': '5ed90ee34697cc11bccef0f2', 'userId': '5ed90ee04697cc11bccef0f0', 'email': 'email64953@xx.com', 'phone': '1655094147', 'restaurantName': 'updated name61684', 'priceRangeMin': 300, 'priceRangeMax': 800, 'zipCodesDelivered': [2002, 2004]}
+200
+{
+    "id": "5ed90ee34697cc11bccef0f2",
+    "userId": "5ed90ee04697cc11bccef0f0",
+    "email": "email64953@xx.com",
+    "phone": "1655094147",
+    "restaurantName": "updated name61684",
+    "priceRangeMin": 300,
+    "priceRangeMax": 800,
+    "zipCodesDelivered": [
+        2002,
+        2004
+    ]
+}
+get restaurant zip: 2001
+200
+get restaurant zip: 2002
+200
+[
+    {
+        "id": "5ed556eaf2200e468c39881b",
+        "zip": 2002,
+        "restaurantId": "5ed556eaf2200e468c398819",
+        "restaurantName": "restname65666",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed556eaf2200e468c39881d",
+        "zip": 2002,
+        "restaurantId": "5ed556eaf2200e468c39881c",
+        "restaurantName": "restname14603",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed5570ef2200e468c398823",
+        "zip": 2002,
+        "restaurantId": "5ed5570ef2200e468c398821",
+        "restaurantName": "restname26433",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed5570ef2200e468c398825",
+        "zip": 2002,
+        "restaurantId": "5ed5570ef2200e468c398824",
+        "restaurantName": "restname59626",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55737f2200e468c39882b",
+        "zip": 2002,
+        "restaurantId": "5ed55737f2200e468c398829",
+        "restaurantName": "restname32659",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55737f2200e468c39882d",
+        "zip": 2002,
+        "restaurantId": "5ed55737f2200e468c39882c",
+        "restaurantName": "restname42542",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55799f2200e468c398834",
+        "zip": 2002,
+        "restaurantId": "5ed55799f2200e468c398831",
+        "restaurantName": "restname72411",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55799f2200e468c398835",
+        "zip": 2002,
+        "restaurantId": "5ed55799f2200e468c398832",
+        "restaurantName": "restname50562",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed557e8f2200e468c39883b",
+        "zip": 2002,
+        "restaurantId": "5ed557e8f2200e468c398839",
+        "restaurantName": "updated name79113",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed557e8f2200e468c39883d",
+        "zip": 2002,
+        "restaurantId": "5ed557e8f2200e468c39883c",
+        "restaurantName": "restname57520",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55834f2200e468c398843",
+        "zip": 2002,
+        "restaurantId": "5ed55834f2200e468c398841",
+        "restaurantName": "updated name20076",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55834f2200e468c398845",
+        "zip": 2002,
+        "restaurantId": "5ed55834f2200e468c398844",
+        "restaurantName": "restname20190",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55856f2200e468c39884b",
+        "zip": 2002,
+        "restaurantId": "5ed55856f2200e468c398849",
+        "restaurantName": "updated name36024",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55856f2200e468c39884d",
+        "zip": 2002,
+        "restaurantId": "5ed55856f2200e468c39884c",
+        "restaurantName": "restname97954",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55895f2200e468c398853",
+        "zip": 2002,
+        "restaurantId": "5ed55895f2200e468c398851",
+        "restaurantName": "updated name45707",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55895f2200e468c398855",
+        "zip": 2002,
+        "restaurantId": "5ed55895f2200e468c398854",
+        "restaurantName": "restname64438",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed558aff2200e468c39885b",
+        "zip": 2002,
+        "restaurantId": "5ed558aff2200e468c398859",
+        "restaurantName": "updated name89232",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed558aff2200e468c39885d",
+        "zip": 2002,
+        "restaurantId": "5ed558aff2200e468c39885c",
+        "restaurantName": "restname10085",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55a20f2200e468c398864",
+        "zip": 2002,
+        "restaurantId": "5ed55a20f2200e468c398862",
+        "restaurantName": "updated name70081",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55a20f2200e468c398866",
+        "zip": 2002,
+        "restaurantId": "5ed55a20f2200e468c398865",
+        "restaurantName": "restname67576",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55a85f2200e468c39886f",
+        "zip": 2002,
+        "restaurantId": "5ed55a85f2200e468c39886e",
+        "restaurantName": "restname52384",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55a9df2200e468c39887b",
+        "zip": 2002,
+        "restaurantId": "5ed55a9df2200e468c39887a",
+        "restaurantName": "restname75913",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55aa6f2200e468c398885",
+        "zip": 2002,
+        "restaurantId": "5ed55aa6f2200e468c398883",
+        "restaurantName": "updated name14934",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55aa7f2200e468c398887",
+        "zip": 2002,
+        "restaurantId": "5ed55aa7f2200e468c398886",
+        "restaurantName": "restname24143",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55bb6f2200e468c398890",
+        "zip": 2002,
+        "restaurantId": "5ed55bb6f2200e468c39888f",
+        "restaurantName": "restname44296",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55cbbf2200e468c39889c",
+        "zip": 2002,
+        "restaurantId": "5ed55cbbf2200e468c39889b",
+        "restaurantName": "restname77354",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55d6af2200e468c3988a8",
+        "zip": 2002,
+        "restaurantId": "5ed55d6af2200e468c3988a7",
+        "restaurantName": "restname35678",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed788ed36c4ff45806ce525",
+        "zip": 2002,
+        "restaurantId": "5ed788ed36c4ff45806ce524",
+        "restaurantName": "restname21641",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed7894636c4ff45806ce531",
+        "zip": 2002,
+        "restaurantId": "5ed7894636c4ff45806ce530",
+        "restaurantName": "restname38560",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed78fc6f607643321dfb1df",
+        "zip": 2002,
+        "restaurantId": "5ed78fc6f607643321dfb1de",
+        "restaurantName": "restname38020",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed79133cba2a23acaa16aca",
+        "zip": 2002,
+        "restaurantId": "5ed79133cba2a23acaa16ac9",
+        "restaurantName": "restname82646",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed7938290c4cc0ff54153a8",
+        "zip": 2002,
+        "restaurantId": "5ed7938290c4cc0ff54153a7",
+        "restaurantName": "restname59681",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed7963ae6289a2cbafcb0ee",
+        "zip": 2002,
+        "restaurantId": "5ed7963ae6289a2cbafcb0ed",
+        "restaurantName": "restname37435",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed79763e6289a2cbafcb0fa",
+        "zip": 2002,
+        "restaurantId": "5ed79763e6289a2cbafcb0f9",
+        "restaurantName": "restname49995",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed79793e6289a2cbafcb106",
+        "zip": 2002,
+        "restaurantId": "5ed79793e6289a2cbafcb105",
+        "restaurantName": "restname20567",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed79869e6289a2cbafcb112",
+        "zip": 2002,
+        "restaurantId": "5ed79869e6289a2cbafcb111",
+        "restaurantName": "restname30760",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed79bad861d9306681d545d",
+        "zip": 2002,
+        "restaurantId": "5ed79bad861d9306681d545c",
+        "restaurantName": "restname61398",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed79bd6861d9306681d5469",
+        "zip": 2002,
+        "restaurantId": "5ed79bd6861d9306681d5468",
+        "restaurantName": "restname91796",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed79c4d861d9306681d5475",
+        "zip": 2002,
+        "restaurantId": "5ed79c4d861d9306681d5474",
+        "restaurantName": "restname71376",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed79dc40393c84e95fc744b",
+        "zip": 2002,
+        "restaurantId": "5ed79dc40393c84e95fc744a",
+        "restaurantName": "restname99414",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed79dec0393c84e95fc7457",
+        "zip": 2002,
+        "restaurantId": "5ed79dec0393c84e95fc7456",
+        "restaurantName": "restname76911",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed79f8d1b56cb2fd9a0ffcd",
+        "zip": 2002,
+        "restaurantId": "5ed79f8d1b56cb2fd9a0ffcc",
+        "restaurantName": "restname17900",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed79ff71b56cb2fd9a0ffd9",
+        "zip": 2002,
+        "restaurantId": "5ed79ff71b56cb2fd9a0ffd8",
+        "restaurantName": "restname59251",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed8fa2d080c8b452cad8b84",
+        "zip": 2002,
+        "restaurantId": "5ed8fa2d080c8b452cad8b82",
+        "restaurantName": "restname98666",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed8fa61080c8b452cad8b89",
+        "zip": 2002,
+        "restaurantId": "5ed8fa61080c8b452cad8b87",
+        "restaurantName": "restname32414",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed90ee34697cc11bccef0f4",
+        "zip": 2002,
+        "restaurantId": "5ed90ee34697cc11bccef0f2",
+        "restaurantName": "updated name61684",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed90ee64697cc11bccef0f6",
+        "zip": 2002,
+        "restaurantId": "5ed90ee64697cc11bccef0f5",
+        "restaurantName": "restname91491",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    }
+]
+get restaurant zip: 2004
+200
+[
+    {
+        "id": "5ed558aff2200e468c39885f",
+        "zip": 2004,
+        "restaurantId": "5ed558aff2200e468c398859",
+        "restaurantName": "updated name89232",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55a20f2200e468c398868",
+        "zip": 2004,
+        "restaurantId": "5ed55a20f2200e468c398862",
+        "restaurantName": "updated name70081",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55aa7f2200e468c398889",
+        "zip": 2004,
+        "restaurantId": "5ed55aa6f2200e468c398883",
+        "restaurantName": "updated name14934",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed90ee94697cc11bccef0f8",
+        "zip": 2004,
+        "restaurantId": "5ed90ee34697cc11bccef0f2",
+        "restaurantName": "updated name61684",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    }
+]
+get restaurant user
+200
+[
+    {
+        "id": "5ed90ee34697cc11bccef0f2",
+        "userId": "5ed90ee04697cc11bccef0f0",
+        "email": "email64953@xx.com",
+        "phone": "1655094147",
+        "restaurantName": "updated name61684",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800,
+        "zipCodesDelivered": [
+            2002,
+            2004
+        ]
+    },
+    {
+        "id": "5ed90ee64697cc11bccef0f5",
+        "userId": "5ed90ee04697cc11bccef0f0",
+        "email": "email64953@xx.com",
+        "phone": "1655094147",
+        "restaurantName": "restname91491",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800,
+        "zipCodesDelivered": [
+            2002,
+            2003
+        ]
+    }
+]
+delete restaurant
+200
+
+get restaurant user
+200
+[
+    {
+        "id": "5ed90ee64697cc11bccef0f5",
+        "userId": "5ed90ee04697cc11bccef0f0",
+        "email": "email64953@xx.com",
+        "phone": "1655094147",
+        "restaurantName": "restname91491",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800,
+        "zipCodesDelivered": [
+            2002,
+            2003
+        ]
+    }
+]
+get restaurant zip: 2002
+200
+[
+    {
+        "id": "5ed556eaf2200e468c39881b",
+        "zip": 2002,
+        "restaurantId": "5ed556eaf2200e468c398819",
+        "restaurantName": "restname65666",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed556eaf2200e468c39881d",
+        "zip": 2002,
+        "restaurantId": "5ed556eaf2200e468c39881c",
+        "restaurantName": "restname14603",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed5570ef2200e468c398823",
+        "zip": 2002,
+        "restaurantId": "5ed5570ef2200e468c398821",
+        "restaurantName": "restname26433",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed5570ef2200e468c398825",
+        "zip": 2002,
+        "restaurantId": "5ed5570ef2200e468c398824",
+        "restaurantName": "restname59626",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55737f2200e468c39882b",
+        "zip": 2002,
+        "restaurantId": "5ed55737f2200e468c398829",
+        "restaurantName": "restname32659",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55737f2200e468c39882d",
+        "zip": 2002,
+        "restaurantId": "5ed55737f2200e468c39882c",
+        "restaurantName": "restname42542",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55799f2200e468c398834",
+        "zip": 2002,
+        "restaurantId": "5ed55799f2200e468c398831",
+        "restaurantName": "restname72411",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55799f2200e468c398835",
+        "zip": 2002,
+        "restaurantId": "5ed55799f2200e468c398832",
+        "restaurantName": "restname50562",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed557e8f2200e468c39883b",
+        "zip": 2002,
+        "restaurantId": "5ed557e8f2200e468c398839",
+        "restaurantName": "updated name79113",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed557e8f2200e468c39883d",
+        "zip": 2002,
+        "restaurantId": "5ed557e8f2200e468c39883c",
+        "restaurantName": "restname57520",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55834f2200e468c398843",
+        "zip": 2002,
+        "restaurantId": "5ed55834f2200e468c398841",
+        "restaurantName": "updated name20076",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55834f2200e468c398845",
+        "zip": 2002,
+        "restaurantId": "5ed55834f2200e468c398844",
+        "restaurantName": "restname20190",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55856f2200e468c39884b",
+        "zip": 2002,
+        "restaurantId": "5ed55856f2200e468c398849",
+        "restaurantName": "updated name36024",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55856f2200e468c39884d",
+        "zip": 2002,
+        "restaurantId": "5ed55856f2200e468c39884c",
+        "restaurantName": "restname97954",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55895f2200e468c398853",
+        "zip": 2002,
+        "restaurantId": "5ed55895f2200e468c398851",
+        "restaurantName": "updated name45707",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55895f2200e468c398855",
+        "zip": 2002,
+        "restaurantId": "5ed55895f2200e468c398854",
+        "restaurantName": "restname64438",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed558aff2200e468c39885b",
+        "zip": 2002,
+        "restaurantId": "5ed558aff2200e468c398859",
+        "restaurantName": "updated name89232",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed558aff2200e468c39885d",
+        "zip": 2002,
+        "restaurantId": "5ed558aff2200e468c39885c",
+        "restaurantName": "restname10085",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55a20f2200e468c398864",
+        "zip": 2002,
+        "restaurantId": "5ed55a20f2200e468c398862",
+        "restaurantName": "updated name70081",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55a20f2200e468c398866",
+        "zip": 2002,
+        "restaurantId": "5ed55a20f2200e468c398865",
+        "restaurantName": "restname67576",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55a85f2200e468c39886f",
+        "zip": 2002,
+        "restaurantId": "5ed55a85f2200e468c39886e",
+        "restaurantName": "restname52384",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55a9df2200e468c39887b",
+        "zip": 2002,
+        "restaurantId": "5ed55a9df2200e468c39887a",
+        "restaurantName": "restname75913",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55aa6f2200e468c398885",
+        "zip": 2002,
+        "restaurantId": "5ed55aa6f2200e468c398883",
+        "restaurantName": "updated name14934",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55aa7f2200e468c398887",
+        "zip": 2002,
+        "restaurantId": "5ed55aa7f2200e468c398886",
+        "restaurantName": "restname24143",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55bb6f2200e468c398890",
+        "zip": 2002,
+        "restaurantId": "5ed55bb6f2200e468c39888f",
+        "restaurantName": "restname44296",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55cbbf2200e468c39889c",
+        "zip": 2002,
+        "restaurantId": "5ed55cbbf2200e468c39889b",
+        "restaurantName": "restname77354",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed55d6af2200e468c3988a8",
+        "zip": 2002,
+        "restaurantId": "5ed55d6af2200e468c3988a7",
+        "restaurantName": "restname35678",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed788ed36c4ff45806ce525",
+        "zip": 2002,
+        "restaurantId": "5ed788ed36c4ff45806ce524",
+        "restaurantName": "restname21641",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed7894636c4ff45806ce531",
+        "zip": 2002,
+        "restaurantId": "5ed7894636c4ff45806ce530",
+        "restaurantName": "restname38560",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed78fc6f607643321dfb1df",
+        "zip": 2002,
+        "restaurantId": "5ed78fc6f607643321dfb1de",
+        "restaurantName": "restname38020",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed79133cba2a23acaa16aca",
+        "zip": 2002,
+        "restaurantId": "5ed79133cba2a23acaa16ac9",
+        "restaurantName": "restname82646",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed7938290c4cc0ff54153a8",
+        "zip": 2002,
+        "restaurantId": "5ed7938290c4cc0ff54153a7",
+        "restaurantName": "restname59681",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed7963ae6289a2cbafcb0ee",
+        "zip": 2002,
+        "restaurantId": "5ed7963ae6289a2cbafcb0ed",
+        "restaurantName": "restname37435",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed79763e6289a2cbafcb0fa",
+        "zip": 2002,
+        "restaurantId": "5ed79763e6289a2cbafcb0f9",
+        "restaurantName": "restname49995",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed79793e6289a2cbafcb106",
+        "zip": 2002,
+        "restaurantId": "5ed79793e6289a2cbafcb105",
+        "restaurantName": "restname20567",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed79869e6289a2cbafcb112",
+        "zip": 2002,
+        "restaurantId": "5ed79869e6289a2cbafcb111",
+        "restaurantName": "restname30760",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed79bad861d9306681d545d",
+        "zip": 2002,
+        "restaurantId": "5ed79bad861d9306681d545c",
+        "restaurantName": "restname61398",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed79bd6861d9306681d5469",
+        "zip": 2002,
+        "restaurantId": "5ed79bd6861d9306681d5468",
+        "restaurantName": "restname91796",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed79c4d861d9306681d5475",
+        "zip": 2002,
+        "restaurantId": "5ed79c4d861d9306681d5474",
+        "restaurantName": "restname71376",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed79dc40393c84e95fc744b",
+        "zip": 2002,
+        "restaurantId": "5ed79dc40393c84e95fc744a",
+        "restaurantName": "restname99414",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed79dec0393c84e95fc7457",
+        "zip": 2002,
+        "restaurantId": "5ed79dec0393c84e95fc7456",
+        "restaurantName": "restname76911",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed79f8d1b56cb2fd9a0ffcd",
+        "zip": 2002,
+        "restaurantId": "5ed79f8d1b56cb2fd9a0ffcc",
+        "restaurantName": "restname17900",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed79ff71b56cb2fd9a0ffd9",
+        "zip": 2002,
+        "restaurantId": "5ed79ff71b56cb2fd9a0ffd8",
+        "restaurantName": "restname59251",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed8fa2d080c8b452cad8b84",
+        "zip": 2002,
+        "restaurantId": "5ed8fa2d080c8b452cad8b82",
+        "restaurantName": "restname98666",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed8fa61080c8b452cad8b89",
+        "zip": 2002,
+        "restaurantId": "5ed8fa61080c8b452cad8b87",
+        "restaurantName": "restname32414",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    },
+    {
+        "id": "5ed90ee64697cc11bccef0f6",
+        "zip": 2002,
+        "restaurantId": "5ed90ee64697cc11bccef0f5",
+        "restaurantName": "restname91491",
+        "priceRangeMin": 300,
+        "priceRangeMax": 800
+    }
+]
+get restaurant zip: 2004
+200
+creating food
+200
+[
+    {
+        "id": "5ed90eef4697cc11bccef0f9",
+        "restaurantId": "5ed90ee64697cc11bccef0f5",
+        "price": 80322,
+        "name": "foodName62906",
+        "qty": 1
+    },
+    {
+        "id": "5ed90eef4697cc11bccef0fa",
+        "restaurantId": "5ed90ee64697cc11bccef0f5",
+        "price": 39179,
+        "name": "foodName23214",
+        "qty": 1
+    },
+    {
+        "id": "5ed90eef4697cc11bccef0fb",
+        "restaurantId": "5ed90ee64697cc11bccef0f5",
+        "price": 23187,
+        "name": "foodName35806",
+        "qty": 1
+    }
+]
+get restaurant food
+200
+[
+    {
+        "id": "5ed90eef4697cc11bccef0f9",
+        "restaurantId": "5ed90ee64697cc11bccef0f5",
+        "price": 80322,
+        "name": "foodName62906",
+        "qty": 1
+    },
+    {
+        "id": "5ed90eef4697cc11bccef0fa",
+        "restaurantId": "5ed90ee64697cc11bccef0f5",
+        "price": 39179,
+        "name": "foodName23214",
+        "qty": 1
+    },
+    {
+        "id": "5ed90eef4697cc11bccef0fb",
+        "restaurantId": "5ed90ee64697cc11bccef0f5",
+        "price": 23187,
+        "name": "foodName35806",
+        "qty": 1
+    }
+]
+update food: {'id': '5ed90eef4697cc11bccef0fa', 'restaurantId': '5ed90ee64697cc11bccef0f5', 'price': 39179, 'name': 'updated fname87297', 'qty': 1}
+200
+{
+    "id": "5ed90eef4697cc11bccef0fa",
+    "restaurantId": "5ed90ee64697cc11bccef0f5",
+    "price": 39179,
+    "name": "updated fname87297",
+    "qty": 1
+}
+get restaurant food
+200
+[
+    {
+        "id": "5ed90eef4697cc11bccef0f9",
+        "restaurantId": "5ed90ee64697cc11bccef0f5",
+        "price": 80322,
+        "name": "foodName62906",
+        "qty": 1
+    },
+    {
+        "id": "5ed90eef4697cc11bccef0fa",
+        "restaurantId": "5ed90ee64697cc11bccef0f5",
+        "price": 39179,
+        "name": "updated fname87297",
+        "qty": 1
+    },
+    {
+        "id": "5ed90eef4697cc11bccef0fb",
+        "restaurantId": "5ed90ee64697cc11bccef0f5",
+        "price": 23187,
+        "name": "foodName35806",
+        "qty": 1
+    }
+]
+fo_ord_rec
+0
+1
+fo_ord_can
+0
+2
+fo_ord_can
+0
+3
+delete food
+200
+
+get restaurant food
+200
+[
+    {
+        "id": "5ed90eef4697cc11bccef0fa",
+        "restaurantId": "5ed90ee64697cc11bccef0f5",
+        "price": 39179,
+        "name": "updated fname87297",
+        "qty": 1
+    },
+    {
+        "id": "5ed90eef4697cc11bccef0fb",
+        "restaurantId": "5ed90ee64697cc11bccef0f5",
+        "price": 23187,
+        "name": "foodName35806",
+        "qty": 1
+    }
+]
+delete restaurant
+200
+
+get restaurant food
+400
+{
+    "message": "Restaurant does not exist!!"
+}
+get restaurant user
+400
+finished

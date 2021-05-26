@@ -1,0 +1,29 @@
+version: '3'
+services:
+  order-service:
+    build: .
+    links: 
+      - my-kafka1
+    env_file:
+      - ./all_configs.env
+    ports:
+      - "8202:80"
+  zookeeper:
+    image: wurstmeister/zookeeper
+    ports:
+      - "2181:2181"
+  my-kafka1:
+    image: wurstmeister/kafka
+    links: 
+      - zookeeper
+    deploy:
+      replicas: 1
+      resources:
+        limits:
+          memory: "256M"
+    env_file:
+      - ./all_configs.env
+    ports:
+      - "9092:9092"
+    volumes:
+      - ./kafka_pers_dir:/var/run/docker.sock

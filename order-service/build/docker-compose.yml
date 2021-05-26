@@ -1,0 +1,44 @@
+version: '3'
+services:
+  order-service:
+    build: .
+    links: 
+      - my-kafka1
+    env_file:
+      - ./all_configs.env
+    ports:
+      - "8202:80"
+  my-mongo:
+    image: mongo:3
+    env_file:
+      - ./all_configs.env
+    ports:
+      - "27017:27017" 
+    deploy:
+      resources:
+        limits:
+          memory: "256M"
+    volumes:
+      - ./data/mongo:/data/db
+      - ./db_init:/docker-entrypoint-initdb.d/
+  #docker pull wurstmeister/kafka:2.12-2.5.0(updated regularly)
+  #zookeeper : 3f43f72cb2832e7a5fbed7f7dbcd0c43004357974d8f32555d101bd53e81e74f
+  zookeeper:
+    image: wurstmeister/zookeeper
+    ports:
+      - "2181:2181"
+  my-kafka1:
+    image: wurstmeister/kafka
+    links: 
+      - zookeeper
+    deploy:
+      replicas: 1
+      resources:
+        limits:
+          memory: "256M"
+    env_file:
+      - ./all_configs.env
+    ports:
+      - "9092:9092"
+    volumes:
+      - ./kafka_pers_dir:/var/run/docker.sock
